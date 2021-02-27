@@ -1,0 +1,36 @@
+{% extends 'shop/basic.html' %}
+{% block title %}About us{% endblock %}
+{% block body %}
+
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="mbr-white col-md-10">
+                <h1 class="mbr-section-title align-center mbr-bold pb-2 mbr-fonts-style display-6">Responsive Bootstrap About Us Page Template</h1>
+                <p class="mbr-text align-center pb-3 mbr-fonts-style display-5">
+                    We are all very different. We were born in different cities, at different times, we love different music, food, movies. But we have something that unites us all. It is our company. We are its heart. We are not just a team, we are a family.
+                </p>
+                <div class="mx-auto " style="width:200px;">
+                <a href="/shop/contact/"><button type="button" class="btn btn-outline-dark " >Contact Us</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mx-auto my-4 " style="width:300px;">
+                     {% load static %}
+        <div class="user_image">
+                            <img src="{% static 'shop/shubham1.png' %}" class="rounded-circle" alt="250x250" >
+        </div>          
+            <div class="mx-auto my-4 " style="width:200px;">
+                            Shubham Parab
+            </div>                
+    </div>    
+                    
+    <div class="mx-auto" style="width:4 00px;">
+        <p> I am very pleased with the quality of the work.</p>
+    </div>
+                               
+                    
+
+
+{% endblock %}    
+    
